@@ -81,7 +81,7 @@ If you use this implementation for academic research, you are highly encouraged 
 
 * Irene Giacomelli(University of Wisconsin-Madison, Madison)
 * Somesh Jha(University of Wisconsin-Madison, Madison)
-* Marc Joye(NXP Semiconductors, San Jos)
+* Marc Joye(NXP Semiconductors, San Jose)
 * C. David Page(University of Wisconsin-Madison, Madison)
 * Kyonghwan Yoon(University of Wisconsin-Madison, Madison)
 
