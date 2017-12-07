@@ -28,7 +28,7 @@ if __name__ == '__main__':
     print("Generating ", result_filename)
     with open(result_filename, 'w') as csvfile:
         writer = csv.writer(csvfile, dialect = 'excel')
-        writer.writerow(['Num_instances', 'Num_dimensions', 'Magnitude', 'log2(N)',  '2norm', 'Error_rate', 'Runtime(Phase1-step1)', 'Runtime(Phase1-step2)', 'Runtime(Phase1-step3)','Runtime(Phase2-step1)','Runtime(Phase2-step2)','Runtime(Phase2-step3)'])
+        writer.writerow(['Num_instances', 'Num_dimensions', 'Magnitude', 'log2(N)',  '2norm', 'MSE(clean)', 'MSE(secure)', 'MSE(Error)', 'MAE(clean)', 'MAE(secure)', 'MAE(Error)', 'Runtime(Phase1-step1)', 'Runtime(Phase1-step2)', 'Runtime(Phase1-step3)','Runtime(Phase2-step1)','Runtime(Phase2-step2)','Runtime(Phase2-step3)'])
 
     #parameters setting
     lamda = 0.1
